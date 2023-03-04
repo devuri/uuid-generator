@@ -1,0 +1,18 @@
+{
+    "name": "devuri/uuid-generator",
+    "description": "A PHP package to generate UUIDs more securely and efficiently",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Uriel Wilson",
+            "email": "hello@urielwilson.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Devuri\\UUIDGenerator\\": "src/"
+        }
+    }
+}
