@@ -15,7 +15,7 @@ Alternatively, you can manually include the `UUIDGenerator` class in your PHP pr
 
 To use the `UUIDGenerator` class, first import the class using the `use` keyword:
 ```php
-use Devuri\UUIDGenerator;
+use Devuri\UUIDGenerator\UUIDGenerator;
 ```
 Then, create a new instance of the `UUIDGenerator` class:
 ```php
@@ -43,7 +43,7 @@ Where:
 
 Here's an example of how to use the `UUIDGenerator` class to generate a new UUID:
 ```php
-    use Devuri\UUIDGenerator;
+    use Devuri\UUIDGenerator\UUIDGenerator;
     
     $uuidGenerator = new UUIDGenerator();
     $uuid = $uuidGenerator->generateUUID();
